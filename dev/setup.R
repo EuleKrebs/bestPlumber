@@ -22,3 +22,8 @@ lintr::use_lintr()
 
 usethis::edit_r_environ(scope = "project")
 
+usethis::use_package("renv")
+
+renv::snapshot()
+
+rmarkdown::render("README.Rmd", output_format = "md_document")

@@ -1,8 +1,5 @@
 # dev files
-^dev$
-
-# rmarkdown file
-*.Rmd
+dev/.*
 
 # History files
 .Rhistory

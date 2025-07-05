@@ -1,7 +1,3 @@
-bestPlumber: A Template for Building Robust Plumber APIs in R
-================
-EuleKrebs
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # bestPlumber
@@ -20,20 +16,16 @@ robust and maintainable way.
 You can install the development version of bestPlumber from
 [GitHub](https://github.com/EuleKrebs/bestPlumber) with:
 
-``` r
-devtools::install_github("EuleKrebs/bestPlumber")
-```
+    devtools::install_github("EuleKrebs/bestPlumber")
 
 ## Example: Running the API
 
-``` r
-devtools::load_all()
-sysdir <- system.file(package = "bestPlumber")
-# start the API server
-source(file.path(sysdir, "runApp.R"))
-# kill the API server
-source(file.path(sysdir, "killApp.R"))
-```
+    devtools::load_all()
+    sysdir <- system.file(package = "bestPlumber")
+    # start the API server
+    source(file.path(sysdir, "runApp.R"))
+    # kill the API server
+    source(file.path(sysdir, "killApp.R"))
 
 This will launch the API locally. You can then access endpoints such as
 `http://localhost:<port>` in your browser or with `curl`.

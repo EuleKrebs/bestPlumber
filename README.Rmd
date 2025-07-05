@@ -1,9 +1,6 @@
 ---
 title: "bestPlumber: A Template for Building Robust Plumber APIs in R"
-author: "EuleKrebs"
 output: github_document
-    toc: true
-    toc_depth: 2
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -29,13 +26,13 @@ It is intended as a template for structuring your own Plumber APIs in a robust a
 
 You can install the development version of bestPlumber from [GitHub](https://github.com/EuleKrebs/bestPlumber) with:
 
-```r
+```{r, eval = FALSE}
 devtools::install_github("EuleKrebs/bestPlumber")
 ```
 
 ## Example: Running the API
 
-```r
+```{r, eval = FALSE}
 devtools::load_all()
 sysdir <- system.file(package = "bestPlumber")
 # start the API server
