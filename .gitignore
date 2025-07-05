@@ -1,3 +1,9 @@
+# dev files
+^dev$
+
+# rmarkdown file
+*.Rmd
+
 # History files
 .Rhistory
 .Rapp.history
@@ -47,3 +53,5 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+.Rproj.user
+docs

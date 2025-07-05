@@ -1,0 +1,7 @@
+linters: lintr::linters_with_defaults(
+    #object_usage_linter = NULL,
+    line_length_linter(120),
+    trailing_whitespace_linter(allow_empty_lines = TRUE),
+    object_name_linter(styles = "camelCase")
+  )
+encoding: "UTF-8"
